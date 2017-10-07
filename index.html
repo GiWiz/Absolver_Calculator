@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Absolver Calculator</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/calc.css">
+</head>
+<body>
+<div id="container">
+  <h1>Absolver Calculator</h1>
+  	
+  <form>
+    <select id="mySelect">
+      <option>Forsaken</option>
+      <option>Forsaken -> Kahlt</option>
+      <option>Forsaken -> Windfall</option>
+      <option>Forsaken -> Stagger</option>
+      <option>Kahlt</option>
+      <option>Kahlt -> Forsaken</option>
+      <option>Kahlt -> Windfall</option>
+      <option>Kahlt -> Stagger</option>
+      <option>Windfall</option>
+      <option>Windfall -> Forsaken</option>
+      <option>Windfall -> Kahlt</option>
+      <option>Windfall -> Stagger</option>
+    </select>
+  </form>
+
+
+  <div id="statTable">
+    <p id="attribute">Remaining Points: <span id="remainingPoints">60</span></p>
+
+    <p>Strength: <span id="str">0</span><span class="recommend">Recommended: <span id="recommendStr">N/A</span></span></p> 
+    <input id="strInput" type="number" min="0" max="60" disabled="disabled">
+
+    <p>Dexterity: <span id="dex">0</span><span class="recommend" >Recommended: <span id="recommendDex">N/A</span></span></p>
+    <input id="dexInput" type="number" min="0" max="60" disabled="disabled">
+
+    <p>Vitality: <span id="vit">0</span><span class="recommend">Recommended: <span id="recommendVit">16</span></span></p>
+    <input id="vitInput" type="number" min="0" max="60">
+
+    <p>Endurance: <span id="end">0</span><span class="recommend">Recommended: <span id="recommendEnd">13</span></span></p>
+    <input id="endInput" type="number" min="0" max="60">
+
+    <p>Will: <span id="will">0</span><span class="recommend">Recommended: <span id="recommendWill">14</span></span></p>
+    <input id="willInput" type="number" min="0" max="60">
+
+    <p>Mobility: <span id="mob">0</span><span class="recommend">Recommended: <span id="recommendMob">N/A</span></span></p>
+    <input id="mobInput" type="number" min="0" max="60" disabled="disabled">
+  </div>
+</div>
+
+<script type="text/javascript" src="assets/js/forsaken.js"></script>
+<script type="text/javascript" src="assets/js/forsakenKahlt.js"></script>
+<script type="text/javascript" src="assets/js/forsakenWindfall.js"></script>
+<script type="text/javascript" src="assets/js/forsakenStagger.js"></script>
+<script type="text/javascript" src="assets/js/windfall.js"></script>
+<script type="text/javascript" src="assets/js/windfallKahlt.js"></script>
+<script type="text/javascript" src="assets/js/windfallForsaken.js"></script>
+<script type="text/javascript" src="assets/js/windfallStagger.js"></script>
+<script type="text/javascript" src="assets/js/kahlt.js"></script>
+<script type="text/javascript" src="assets/js/kahltWindfall.js"></script>
+<script type="text/javascript" src="assets/js/kahltForsaken.js"></script>
+<script type="text/javascript" src="assets/js/kahltStagger.js"></script>
+<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/calc.js"></script>
+</body>
+</html>

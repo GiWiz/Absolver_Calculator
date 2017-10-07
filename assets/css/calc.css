@@ -1,0 +1,60 @@
+body { 
+  font-family: 'Source Sans Pro', sans-serif;
+  background: url(https://images7.alphacoders.com/855/855762.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	color: white;
+}
+
+select {
+	width: 80%;
+}
+
+option {
+	font-weight: 500;
+
+}
+
+p {
+  text-shadow: 2px 2px #000;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+input {
+  margin-left: 10px;
+  width: 50px;
+}
+
+#attribute {
+  text-align: center;
+  padding: 0;
+  padding-top: 3%;
+}
+
+#container {
+	width: 360px;
+  height: 500px;
+	margin: 100px auto;
+}
+
+#statTable {
+  width: 80%;
+  height: 90%;
+  margin-top: 10%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 1px solid black;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.recommend {
+  float: right;
+  margin-right: 4%;
+}
